@@ -298,7 +298,7 @@ def run():
 			writer.write(frame)
 
 		# show the output frame
-		cv2.imshow("Real-Time Monitoring/Analysis Window", frame)
+		# cv2.imshow("Real-Time Monitoring/Analysis Window", frame)
 		key = cv2.waitKey(1) & 0xFF
 
 		# if the `q` key was pressed, break from the loop
@@ -336,7 +336,7 @@ def run():
 		vs.release()
 
 	# close any open windows
-	cv2.destroyAllWindows()
+	# cv2.destroyAllWindows()
 
 
 ##learn more about different schedules here: https://pypi.org/project/schedule/
